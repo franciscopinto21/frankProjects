@@ -14,3 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\MainController::class, 'mainview']); 
+Route::get('/second', [\App\Http\Controllers\SecondController::class, 'secondview']); 
+Route::get('/teste/{p1}/{p2}', [\App\Http\Controllers\TestController::class, 'teste'])->name('teste');
+
+Route::prefix('/app')->group(function(){
+    Route::get('/admin', [\App\Http\Controllers\AdminController::class, 'adminview']); 
+});
+
+Route::fallback(function() {
+    echo "Rota inválida";
+});
