@@ -129,7 +129,7 @@
                           <a href="#">Renards</a>
                            <span class="pull-right btn-box-tool">Software Engineer</span>
                         </span>
-                    <span class="description">Feb 2019 - Oct 2022 · 3 yrs 9 mos</span>
+                    <span class="description">Feb 2014 - Oct 2016 · 3 yrs 9 mos</span>
                   </div>
                   <!-- /.user-block -->
                   <p>
